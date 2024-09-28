@@ -60,19 +60,19 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-*𝑺𝑬𝑺𝑺𝑰𝑶𝑵 𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑬𝑫*
+*𝑺𝑬𝑺𝑺𝑰𝑶𝑵 𝑪𝑶𝑵𝑵𝑬𝑪𝑻𝑬𝑫🦄❗️*
 
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
 *Follow this wachannel for bot updates*
-_https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y_
+_https://whatsapp.com/channel/0029Vak1chV4Y9lkl89DuD3j_
 
 ❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒❒
 *For more info tap on the link below*
-_https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO_
+_https://github.com/papaigwe_
 
-_𝑴𝒂𝒅𝒆 𝑩𝒚 𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔_`
+_𝑴𝒂𝒅𝒆 𝑩𝒚 𝑰gwe the king🦄☄️_`
 					
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
